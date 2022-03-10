@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выполнение JS в браузере</title>
+</head>
+<body>
+    <!-- Браузер следит за событиями, бесконечный цикл, цикл обработки событий event loop -->
+    <script>
+        window.addEventListener('mousemove', function(e){
+            console.log("Mouse was moved!");
+            console.log("X: " + e.offsetX, "Y: " + e.offsetY);
+        });
+    </script>
+</body>
+</html>
