@@ -20,7 +20,7 @@ console.log(location.toString());
 console.log("Current URL is: " + location);
 console.log("location", location);
 
-// Get
+// Устанавливаем Get параметр
 location.search = "mysearch";
 
 let btnReload = document.querySelector('#reload');
